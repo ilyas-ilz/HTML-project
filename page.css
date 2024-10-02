@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+video{
+
+width: 1700px;
+
+
+}
+header{
+    width: 1717px;
+    height: 200px;
+    margin-top: -1%;
+    margin-left: -1%;
+    background-color: darkgreen;
+    backdrop-filter:blur(50%);
+    
+    
+}
+.logorol{
+    width: 75px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+.logo{
+    display: inline-block;
+    margin-left: 80%;
+}

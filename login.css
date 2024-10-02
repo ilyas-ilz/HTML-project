@@ -1,0 +1,162 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.background img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.login-box {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translate(0, -50%);
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 30%;
+}
+
+.login-box h2 {
+	margin-top: 0;
+	color: #000;
+}
+
+.login-box form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-box input {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 25px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
+}
+
+.login-btn {
+	padding: 15px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.login-btn:hover {
+	background-color: #2390bf; /* Green hover color */
+}
+
+.signin-btn {
+	padding: 15px;
+	width: 100%;
+	background-color: #4115a0;
+	color: #fff;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.signin-btn:hover {
+	background-color: #ff4d4d; /* Red hover color */
+}
+
+.login-box button a {
+	text-decoration: none;
+	color: #fff;
+}
+/* From Uiverse.io by G4b413l */ 
+.newtons-cradle {
+	--uib-size: 50px;
+	--uib-speed: 1.2s;
+	--uib-color: #474554;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: var(--uib-size);
+	height: var(--uib-size);
+	margin-top: 17%;
+	margin-left: 20%;
+   }
+   
+   .newtons-cradle__dot {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 25%;
+	transform-origin: center top;
+   }
+   
+   .newtons-cradle__dot::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 25%;
+	border-radius: 50%;
+	background-color: var(--uib-color);
+   }
+   
+   .newtons-cradle__dot:first-child {
+	animation: swing var(--uib-speed) linear infinite;
+   }
+   
+   .newtons-cradle__dot:last-child {
+	animation: swing2 var(--uib-speed) linear infinite;
+   }
+   
+   @keyframes swing {
+	0% {
+	 transform: rotate(0deg);
+	 animation-timing-function: ease-out;
+	}
+   
+	25% {
+	 transform: rotate(70deg);
+	 animation-timing-function: ease-in;
+	}
+   
+	50% {
+	 transform: rotate(0deg);
+	 animation-timing-function: linear;
+	}
+   }
+   
+   @keyframes swing2 {
+	0% {
+	 transform: rotate(0deg);
+	 animation-timing-function: linear;
+	}
+   
+	50% {
+	 transform: rotate(0deg);
+	 animation-timing-function: ease-out;
+	}
+   
+	75% {
+	 transform: rotate(-70deg);
+	 animation-timing-function: ease-in;
+	}
+   }
+   
+
+
